@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="update_interval" type="number" label="Update Interval (hours)" default="24"/>
+</settings>

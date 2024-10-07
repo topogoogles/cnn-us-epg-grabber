@@ -1,0 +1,103 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.so
+
+# Kodi-related
+*.pyo
+*.pyc
+*.pyd
+*.so
+*.dll
+*.exe
+
+# Addon-specific
+script.epggrabber.cnn/guide.xml
+script.epggrabber.cnn/addon_data/
+
+# IDE-related
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-related
+.DS_Store
+Thumbs.db
+
+# Build-related
+build/
+dist/
+*.egg# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.so
+
+# Kodi-related
+*.pyo
+*.pyc
+*.pyd
+*.so
+*.dll
+*.exe
+
+# Addon-specific
+script.epggrabber.cnn/guide.xml
+script.epggrabber.cnn/addon_data/
+
+# IDE-related
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-related
+.DS_Store
+Thumbs.db
+
+# Build-related
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Zip files (for addon distribution)
+*.zip
+
+# User-specific files
+*.ini
+*.cfg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Zip files (for addon distribution)
+*.zip
+
+# User-specific files
+*.ini
+*.cfg
