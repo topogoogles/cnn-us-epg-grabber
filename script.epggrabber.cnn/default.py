@@ -14,7 +14,9 @@ def main():
 
 
 def schedule_grab():
-    interval = ADDON.getSettingInt("update_interval") * 3600  # Convert hours to seconds
+    interval = (
+        ADDON.getSettingNumber("update_interval") * 3600
+    )  # Convert hours to seconds
     while True:
         main()
         time.sleep(interval)
