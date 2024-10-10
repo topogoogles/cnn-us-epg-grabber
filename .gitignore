@@ -82,6 +82,7 @@ dist/
 
 # Zip files (for addon distribution)
 *.zip
+!kodi/**/*.zip
 
 # User-specific files
 *.ini
