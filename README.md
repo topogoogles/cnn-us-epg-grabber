@@ -2,18 +2,18 @@
 
 ## Project Objective
 
-The CNN-US-EPG-Grabber is a Kodi addon designed to fetch and generate Electronic Program Guide (EPG) data for CNN US. This addon scrapes the CNN website to create an XMLTV file, which can be used with Kodi's PVR IPTV Simple Client to display accurate program information for CNN US.
+The CNN-US-EPG-Grabber is a Kodi addon designed to fetch and generate Electronic Program Guide (EPG) data for the IPTV channel version of the widely popular american news and media network **CNN** in the United States edition. This addon scrapes the channel website to create an __XMLTV file__, which can be used with Kodi's PVR IPTV Simple Client to accurately display metadata and other related information for the current TV guide.
 
 ## Features
 
-- Scrapes CNN US schedule from the official website
-- Generates XMLTV-format EPG data
+- Scrapes **CNN** schedule from the official website
+- Generates a XMLTV-format EPG file
 - Integrates seamlessly with Kodi's PVR IPTV Simple Client
-- Customizable update interval
+- It features a customizable update interval for continuos updating
 
 ## Limitations
 
-- The addon relies on the structure of CNN's website. Changes to the website may require updates to the scraping logic.
+- The addon relies on the structure of CNN's website. __CAUTION:__ Changes to the website may require updates to the scraping logic.
 - EPG data is limited to what's available on CNN's public schedule page, which typically covers **only the current day.**
 - The addon does not provide video content; it only generates EPG data.
 - Accuracy of the EPG data depends on the timeliness and correctness of CNN's published schedule.
@@ -69,4 +69,4 @@ Contributions to improve the CNN-US-EPG-Grabber are welcome. Please feel free to
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
