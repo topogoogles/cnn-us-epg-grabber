@@ -2,33 +2,34 @@
 
 ## Project Objective
 
-The CNN-US-EPG-Grabber is a Kodi addon designed to fetch and generate Electronic Program Guide (EPG) data for the IPTV channel version of the widely popular american news and media network **CNN** in the United States edition. This addon scrapes the channel website to create an __XMLTV file__, which can be used with Kodi's PVR IPTV Simple Client to accurately display metadata and other related information for the current TV guide.
+The **_CNN-US-EPG-Grabber_** is a Kodi add-on designed to fetch and generate Electronic Program Guide (EPG) data for the IPTV channel version of the widely popular American news channel  and media network company **CNN** in its United States edition. This add-on scrapes the channel website to create a `XMLTV` file, which can be used with Kodi's _PVR IPTV Simple Client_ to accurately display metadata and other related information for the current TV guide.
 
 ## Features
 
 - Scrapes **CNN** schedule from the official website
 - Generates a XMLTV-format EPG file
-- Integrates seamlessly with Kodi's PVR IPTV Simple Client
-- It features a customizable update interval for continuos updating
+- Integrates seamlessly with Kodi's PVR IPTV Simple Client add-on
+- It features a fully customizable update interval for continuous updating
 
 ## Limitations
 
-- The addon relies on the structure of CNN's website. __CAUTION:__ Changes to the website may require updates to the scraping logic.
-- EPG data is limited to what's available on CNN's public schedule page, which typically covers **only the current day.**
-- The addon does not provide video content; it only generates EPG data.
+- The add-on relies purely on the CNN's website structure. _CAUTION:_ Changes to the website may require updates to the scraping logic.
+- EPG data is limited to what's available on CNN's public schedule page, which typically covers **_only the current day_**
+- The add-on does not provide video content; it only generates EPG data.
 - Accuracy of the EPG data depends on the timeliness and correctness of CNN's published schedule.
 
 ## Installation
 
 1. Download the latest release zip file from the GitHub repository.
 2. In Kodi, go to Add-ons > Install from zip file.
-3. Select the downloaded zip file to install the addon.
+3. Select the downloaded zip file to install the add-on.
 
 ## Configuration
 
 ### Creating the Custom Channels XML File
 
-Create a file named `cnn_us.channels.xml` in Kodi's userdata folder with the following content:
+Create a file named `cnn_us.channels.xml` in Kodi's userdata  folder (in Windows normally under  `C:\Users\<YourUsername>\AppData\Roaming\Kodi\userdata`
+) with the following content:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -43,7 +44,7 @@ This file defines the channel information for CNN US, which is used by the EPG g
 
 ### Creating M3U Playlist
 
-Create a file named `cnn_us.m3u` in Kodi's userdata folder with the following content:
+Create a file named `cnn_us.m3u` in Kodi's `userdata` folder with the following content:
 
 ```m3u
 #EXTM3U
@@ -55,17 +56,17 @@ This M3U playlist provides the stream information for CNN US. Note that the stre
 
 ## Usage
 
-1. Install and configure the PVR IPTV Simple Client addon in Kodi.
+1. Install and configure the PVR IPTV Simple Client add-on in Kodi.
 2. Set the EPG source in PVR IPTV Simple Client to:
    `special://userdata/addon_data/script.epggrabber.cnn/guide.xml`
 3. Set the M3U playlist source to:
    `special://userdata/cnn_us.m3u`
-4. Run the CNN-US-EPG-Grabber addon to generate the initial EPG data.
-5. Configure the update interval in the addon settings if desired.
+4. Run the CNN-US-EPG-Grabber add-on to generate the initial EPG data.
+5. Configure the update interval in the add-on settings if desired.
 
 ## Contributing
 
-Contributions to improve the CNN-US-EPG-Grabber are welcome. Please feel free to submit pull requests or open issues for bugs and feature requests.
+Contributions to improve the **_CNN-US-EPG-Grabber_** are welcome. Please feel free to submit pull requests or open issues for bugs and feature requests.
 
 ## License
 
